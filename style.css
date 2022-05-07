@@ -1,0 +1,41 @@
+.bg-blue {
+  background-color: #073b4c;
+}
+.top-part-space{
+  padding: 2% 5% 
+}
+/* apply style for more than mid size screens */
+@media(min-width:768px){
+  .image{
+      transform: rotate(25deg);
+      margin: 10%
+  }
+}
+/* apply style for smalll screens */
+@media (max-width:767px) {
+   .image{
+      transform: rotate(0);
+      margin: 10%
+  }
+}
+/* using fas class for changing color of icons */
+.fas{
+  color: #ffd166;
+  margin-top: 10%;
+}
+.comment{
+  padding: 3% 20%;
+}
+.rounded-circle{
+  width: 15%;
+}
+.slogan{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 4%;
+}
+.navbar-brand{
+  font-size: 40px;
+  margin-left: 2%;
+}
